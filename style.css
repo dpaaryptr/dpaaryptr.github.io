@@ -1,0 +1,76 @@
+.jumbotron { 
+  padding-top: 6rem;
+  background-color: #7dedff;
+}
+
+#talents {
+  background-color: #7dedff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.container-prj {
+  width: 900px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.project h1 {
+  font-family: var(--poppins);
+}
+
+.project p {
+  padding-top: 10px;
+}
+
+.container-project {
+  width: 800px;
+  margin: 100px auto;
+  display: flex;
+}
+
+.card {
+  border: 1px solid #999;
+  border-radius: 10px;
+  background-color: #eee;
+  overflow: hidden;
+  margin: 28px;
+  flex: 1;
+  transition: 1s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card .header {
+  height: 180px;
+  background-color: #666;
+}
+
+.card .header img {
+  width: 100%;
+}
+
+.card .header video {
+  width: 100%;
+}
+
+.card .content {
+  text-align: center;
+  padding: 20px;
+}
+
+.card.besar {
+  transform: scale(1.15);
+  transition: 1s;
+}
+
+.card.besar:hover {
+  transform: scale(1.3);
+}
